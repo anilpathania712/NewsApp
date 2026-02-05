@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 34,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "OregonLive"
+            },
+            "author": "Maxine Bernstein | The Oregonian/OregonLive",
+            "title": "Judge restricts federal use of tear gas, munitions at Portland ICE protests - OregonLive.com",
+            "description": "The temporary order lasts 14 days. A hearing is set for March 2 to extend the order.",
+            "url": "https://www.oregonlive.com/crime/2026/02/judge-restricts-federal-officers-use-of-force-at-portland-ice-protests.html",
+            "urlToImage": "https://www.oregonlive.com/resizer/v2/6NCIE6LQFBH6PO64DU2BHKP4GI.JPG?auth=6f1846249a4ab91672ebe9f6eed79734c6311f0aa0ddf11db1638b88babe0182&width=1280&smart=true&quality=90",
+            "publishedAt": "2026-02-04T04:06:00Z",
+            "content": "A federal judge on Tuesday issued a temporary order prohibiting federal officers at Portlands U.S. Immigration and Customs Enforcement building from directing tear gas, pepper balls, rubber bullets o… [+10849 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Salvador Rizzo, Tara Copp, Jasmine Golden",
+            "title": "Defense Dept. effort to punish Mark Kelly draws skepticism from judge - The Washington Post",
+            "description": "A federal judge said Pete Hegseth appeared to be expanding restrictions on free speech that have applied only to active-duty service members.",
+            "url": "https://www.washingtonpost.com/national-security/2026/02/03/mark-kelly-hegseth-censure-court/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/U4ECCLZPSJXKTOFPFY2CIZ4XL4_size-normalized.jpg&w=1440",
+            "publishedAt": "2026-02-04T04:00:00Z",
+            "content": "A federal judge on Tuesday sharply questioned the legality of the Defense Departments efforts to censure and possibly demote Sen. Mark Kelly, a retired Navy captain, over his public criticism of the … [+20 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Jack Dunn",
+            "title": "'Wuthering Heights' First Reactions Praise Margot Robbie, Jacob Elordi - Variety",
+            "description": "First reactions are calling 'Wuthering Heights' a 'bodice-ripping crowd-pleaser' that is 'destined to be a massive hit.'",
+            "url": "https://variety.com/2026/film/news/wuthering-heights-reactions-margot-robbie-jacob-elrodi-1236644150/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2026/01/rev-1-WHE-T2-0039_High_Res_JPEG.jpeg?w=1000&h=563&crop=1",
+            "publishedAt": "2026-02-04T03:56:00Z",
+            "content": "Emerald Fennell’s “Wuthering Heights” has been unveiled to members of the film press ahead of its Feb. 13 release, and first reactions are calling the steamy literary romance a “bodice-ripping crowd-… [+3635 chars]"
+        },
+        {
+            "source": {
+                "id": "entertainment-weekly",
+                "name": "Entertainment Weekly"
+            },
+            "author": "https://www.facebook.com/entertainmentweekly",
+            "title": "Ricky Martin issues public statement to Bad Bunny after Grammys: 'I know how heavy it is' - Entertainment Weekly",
+            "description": "Ricky Martin has all the feels about Bad Bunny's historic night at the Grammy Awards on Sunday — and he's letting the world know in an open letter to his fellow Puerto Rican singer.",
+            "url": "https://ew.com/ricky-martin-issues-public-statement-to-bad-bunny-after-historic-grammys-11899014",
+            "urlToImage": "https://ew.com/thmb/3IOjqQh2bwxEMz77_lq2sndED-s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ricky-Martin-2025-MTV-Video-Music-Awards-Bad-Bunny-68th-GRAMMY-Awards-2026-020326-27c5f291398d42baabb7b0e35b62ae81.jpg",
+            "publishedAt": "2026-02-04T02:42:22Z",
+            "content": "Ricky Martin has all the feels about Bad Bunny's historic night at the Grammy Awards on Sunday and he's letting the world know in an open letter to the Puerto Rican singer.\r\n\"Benito, brother, seeing … [+2919 chars]"
+        }
+    ]
+}
