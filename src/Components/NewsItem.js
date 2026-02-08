@@ -1,17 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class NewsItem extends Component {
+const NewsItem = (props)=>  {
 
-  render() {
-    let {
-      title,
-      description,
-      imgUrl,
-      newsUrl,
-      author,
-      date,
-      source
-    } = this.props;
+    let {title, description, imgUrl, newsUrl, author, date, source} =props;
 
     const fallbackImage =
       "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=60";
@@ -161,7 +152,5 @@ export class NewsItem extends Component {
     );
 
   }
-
-}
 
 export default NewsItem

@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
-export class Navbar extends Component {
+const Navbar = () => {
 
-  closeNavbar = () => {
-  const nav = document.getElementById("navbarSupportedContent");
-  if (nav && nav.classList.contains("show")) {
-    nav.classList.remove("show");
-  }
-};
+  const closeNavbar = () => {
+    const nav = document.getElementById("navbarSupportedContent");
+    if (nav && nav.classList.contains("show")) {
+      nav.classList.remove("show");
+    }
+  };
 
-
- render() {
   return (
     <>
       <style>{`
@@ -124,7 +122,7 @@ export class Navbar extends Component {
                     className={({ isActive }) =>
                       `nav-link ${isActive ? "active-nav" : ""}`
                     }
-                    onClick={this.closeNavbar}
+                    onClick={closeNavbar}
                   >
                     {label}
                   </NavLink>
@@ -138,7 +136,4 @@ export class Navbar extends Component {
     </>
   );
 }
-
-}
-
-export default Navbar
+  export default Navbar
