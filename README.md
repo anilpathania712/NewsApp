@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# NewsMonkey – React News App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewsMonkey is a modern React-based news application that fetches the latest headlines from NewsAPI and displays them in a clean, responsive UI with infinite scrolling, category-based navigation, and smooth loading animations.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+ - Latest Top Headlines from NewsAPI
 
-### `npm start`
+- Category-wise news (Business, Entertainment, Health, Science, Sports, Technology)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Infinite Scroll for seamless browsing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Lottie animations for loading experience
 
-### `npm test`
+- Fully responsive UI (mobile, tablet & desktop)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React Router navigation
 
-### `npm run build`
+- Modern card-based UI with hover effects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Shows author, publish date & source
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js
 
-### `npm run eject`
+- React Router DOM
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- NewsAPI
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Bootstrap 5
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Lottie React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React Infinite Scroll Component
 
-## Learn More
+# Screenshot
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="1895" height="924" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/7de6efb0-b55e-4880-bd28-118b109454d3" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="445" height="792" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/9f206164-ba41-439f-b9aa-3c974fb11327" />
 
-### Code Splitting
+# How It Works
+## News Component
+- Fetches news using NewsAPI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Implements pagination & infinite scrolling
 
-### Analyzing the Bundle Size
+- Shows loader while fetching data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## NewsItem Component
 
-### Making a Progressive Web App
+- Displays individual news card
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Fallback image if no image available
 
-### Advanced Configuration
+- Shows author, source & publish date
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Navbar Component
 
-### Deployment
+- Category navigation using React Router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Responsive mobile navbar
+  
+# Available Categories
 
-### `npm run build` fails to minify
+- General (Home)
+
+- Business
+
+- Entertainment
+
+- Health
+
+- Science
+
+- Sports
+
+- Technology
+
+  # Environment Variables
+
+| Variable               | Description      |
+| ---------------------- | ---------------- |
+| REACT_APP_NEWS_API_KEY | Your NewsAPI key |
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
