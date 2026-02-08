@@ -56,60 +56,100 @@ export class News extends Component {
   }
 
   fetchMoreData = async () => {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const nextPage = this.state.page + 1;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${apiKey}&page=${nextPage}&pageSize=${this.props.pageSize}`;
+
     let data = await fetch(url);
     let parsedData = await data.json();
-    console.log(parsedData)
+
     this.setState({
+      page: nextPage,
       articles: this.state.articles.concat(parsedData.articles),
       totalResults: parsedData.totalResults,
-    })
+    });
+    if (parsedData.articles.length === 0) {
+      this.setState({ totalResults: this.state.articles.length });
+      return;
+    }
+
   };
+
 
   render() {
     return (
       <>
-        <h2 className='text-center' style={{ margin: '35px 0px' }}>NewsMonkey - Top Headlines From {this.capitalizeFirstLetter(this.props.category)} Category</h2>
+        <div className="container pt-5"> <h2 className="text-center fw-bold" style={{ margin: "32px 0 28px", letterSpacing: "0.4px" }} >
+          NewsMonkey
+          <span className="text-muted fw-normal"> {" "}— Top Headlines from{" "} </span>
+          <span className="text-primary">
+            {this.capitalizeFirstLetter(this.props.category)}
+          </span>
+        </h2>
+        </div>
+
+        {/* LOADER */}
         {this.state.loading && (
-          <div className="d-flex justify-content-center mx-10 my-3">
+          <div className="d-flex justify-content-center my-4">
             <Lottie
               path="/loading.json"
               loop
               autoplay
-              style={{ width: 300 }}
+              style={{ width: 260 }}
             />
           </div>
         )}
+
+        {/* NEWS LIST */}
         <InfiniteScroll
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}
           hasMore={this.state.articles.length < this.state.totalResults}
           loader={
-            <div className="d-flex justify-content-center my-3">
+            <div className="d-flex justify-content-center my-2">
               <Lottie
                 path="/loading.json"
                 loop
                 autoplay
-                style={{ width: 150 }}
+                style={{ width: 160 }}
               />
             </div>
           }
         >
           <div className="container">
-            <div className="row">
-              {this.state.articles.map((element) => {
-                return <div className="col-md-4" key={element.url} >
-                  <NewsItem title={element.title ? element.title.slice(0, 50) : ""} description={element.description ? element.description.slice(0, 80) : ""} imgUrl={element.urlToImage}
-                    newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
-                </div>
-              })}
-            </div>
+            <div className="row g-4">
 
+              {this.state.articles.map((element, index) => (
+                <div
+                  className="col-12 col-sm-6 col-md-4"
+                  key={`${element.url}-${index}`}
+                >
+                  <NewsItem
+                    title={
+                      element.title
+                        ? element.title.slice(0, 60)
+                        : ""
+                    }
+                    description={
+                      element.description
+                        ? element.description.slice(0, 100)
+                        : ""
+                    }
+                    imgUrl={element.urlToImage}
+                    newsUrl={element.url}
+                    author={element.author}
+                    date={element.publishedAt}
+                    source={element.source.name}
+                  />
+                </div>
+              ))}
+
+            </div>
           </div>
         </InfiniteScroll>
       </>
-    )
+    );
   }
+
 }
 
 export default News
