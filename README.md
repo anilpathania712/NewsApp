@@ -84,4 +84,6 @@ NewsMonkey is a modern React-based news application that fetches the latest head
 | ---------------------- | ---------------- |
 | REACT_APP_NEWS_API_KEY | Your NewsAPI key |
 
+- Create your free API key from https://newsapi.org and add it to your project .env file before running the application.
+
 
