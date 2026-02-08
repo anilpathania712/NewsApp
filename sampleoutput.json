@@ -1,58 +1,85 @@
 {
-    "status": "ok",
-    "totalResults": 34,
-    "articles": [
-        {
-            "source": {
-                "id": null,
-                "name": "OregonLive"
-            },
-            "author": "Maxine Bernstein | The Oregonian/OregonLive",
-            "title": "Judge restricts federal use of tear gas, munitions at Portland ICE protests - OregonLive.com",
-            "description": "The temporary order lasts 14 days. A hearing is set for March 2 to extend the order.",
-            "url": "https://www.oregonlive.com/crime/2026/02/judge-restricts-federal-officers-use-of-force-at-portland-ice-protests.html",
-            "urlToImage": "https://www.oregonlive.com/resizer/v2/6NCIE6LQFBH6PO64DU2BHKP4GI.JPG?auth=6f1846249a4ab91672ebe9f6eed79734c6311f0aa0ddf11db1638b88babe0182&width=1280&smart=true&quality=90",
-            "publishedAt": "2026-02-04T04:06:00Z",
-            "content": "A federal judge on Tuesday issued a temporary order prohibiting federal officers at Portlands U.S. Immigration and Customs Enforcement building from directing tear gas, pepper balls, rubber bullets o… [+10849 chars]"
-        },
-        {
-            "source": {
-                "id": "the-washington-post",
-                "name": "The Washington Post"
-            },
-            "author": "Salvador Rizzo, Tara Copp, Jasmine Golden",
-            "title": "Defense Dept. effort to punish Mark Kelly draws skepticism from judge - The Washington Post",
-            "description": "A federal judge said Pete Hegseth appeared to be expanding restrictions on free speech that have applied only to active-duty service members.",
-            "url": "https://www.washingtonpost.com/national-security/2026/02/03/mark-kelly-hegseth-censure-court/",
-            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/U4ECCLZPSJXKTOFPFY2CIZ4XL4_size-normalized.jpg&w=1440",
-            "publishedAt": "2026-02-04T04:00:00Z",
-            "content": "A federal judge on Tuesday sharply questioned the legality of the Defense Departments efforts to censure and possibly demote Sen. Mark Kelly, a retired Navy captain, over his public criticism of the … [+20 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Variety"
-            },
-            "author": "Jack Dunn",
-            "title": "'Wuthering Heights' First Reactions Praise Margot Robbie, Jacob Elordi - Variety",
-            "description": "First reactions are calling 'Wuthering Heights' a 'bodice-ripping crowd-pleaser' that is 'destined to be a massive hit.'",
-            "url": "https://variety.com/2026/film/news/wuthering-heights-reactions-margot-robbie-jacob-elrodi-1236644150/",
-            "urlToImage": "https://variety.com/wp-content/uploads/2026/01/rev-1-WHE-T2-0039_High_Res_JPEG.jpeg?w=1000&h=563&crop=1",
-            "publishedAt": "2026-02-04T03:56:00Z",
-            "content": "Emerald Fennell’s “Wuthering Heights” has been unveiled to members of the film press ahead of its Feb. 13 release, and first reactions are calling the steamy literary romance a “bodice-ripping crowd-… [+3635 chars]"
-        },
-        {
-            "source": {
-                "id": "entertainment-weekly",
-                "name": "Entertainment Weekly"
-            },
-            "author": "https://www.facebook.com/entertainmentweekly",
-            "title": "Ricky Martin issues public statement to Bad Bunny after Grammys: 'I know how heavy it is' - Entertainment Weekly",
-            "description": "Ricky Martin has all the feels about Bad Bunny's historic night at the Grammy Awards on Sunday — and he's letting the world know in an open letter to his fellow Puerto Rican singer.",
-            "url": "https://ew.com/ricky-martin-issues-public-statement-to-bad-bunny-after-historic-grammys-11899014",
-            "urlToImage": "https://ew.com/thmb/3IOjqQh2bwxEMz77_lq2sndED-s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ricky-Martin-2025-MTV-Video-Music-Awards-Bad-Bunny-68th-GRAMMY-Awards-2026-020326-27c5f291398d42baabb7b0e35b62ae81.jpg",
-            "publishedAt": "2026-02-04T02:42:22Z",
-            "content": "Ricky Martin has all the feels about Bad Bunny's historic night at the Grammy Awards on Sunday and he's letting the world know in an open letter to the Puerto Rican singer.\r\n\"Benito, brother, seeing … [+2919 chars]"
-        }
-    ]
+  "information": {
+    "realTimeArticles": {
+      "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
+    }
+  },
+  "totalArticles": 382994,
+  "articles": [
+    {
+      "id": "55065dc5d9614c4c7709741fb36b45d6",
+      "title": "UNC shocks rival Duke with historic comeback capped by Seth Trimble's last-second 3-pointer",
+      "description": "The Tar Heels trailed the entire game until Trimble's 3-pointer with 0.4 seconds remaining",
+      "content": "Updating Live\n(39)\nPinned\nLink copied\nUNC stuns Duke\nFINAL: No. 14 North Carolina 71, No. 4 Duke 68\nNo. 14 North Carolina stunned No. 4 Duke with a 71-68 win after trailing almost the entire 40 minutes of regulation. UNC star guard Seth Trimble knock... [17194 chars]",
+      "url": "https://www.cbssports.com/college-basketball/news/duke-north-carolina-live-updates-score-result-analysis/live/",
+      "image": "https://sportshub.cbsistatic.com/i/r/2026/02/08/7da101b9-b2a3-4042-af54-616d4b02d44a/thumbnail/1200x675/4e3691a0de8a8d9f02098296d66ca44b/usatsi-28183386-1.jpg",
+      "publishedAt": "2026-02-08T00:31:55Z",
+      "lang": "en",
+      "source": {
+        "id": "416e66c8ea979965c0cee3b0ed1f714b",
+        "name": "CBS Sports",
+        "url": "https://www.cbssports.com"
+      }
+    },
+    {
+      "id": "43cbfc1cd04b2fa52623fe2097ebc863",
+      "title": "Anything less than Super Bowl LX win would be letdown for Seahawks",
+      "description": "This Seahawks Super Bowl feels different than the other ones. A loss wouldn’t just be an opportunity missed, it would be a championship that slipped away.",
+      "content": "SAN FRANCISCO — You could tell Cooper Kupp wasn’t really feeling the question, but it came from former NFL linebacker Will Compton, so the Seahawks receiver entertained it.\n“Is this a must-win or a can’t lose?” Compton shouted out during Super Bowl m... [4188 chars]",
+      "url": "https://www.seattletimes.com/sports/seahawks/anything-less-than-super-bowl-lx-win-would-be-let-down-for-seahawks/",
+      "image": "https://images.seattletimes.com/wp-content/uploads/2026/02/02072026_tzr_tzr_145952.jpg?d=1200x630",
+      "publishedAt": "2026-02-08T00:28:12Z",
+      "lang": "en",
+      "source": {
+        "id": "3c33b26e0f37dca715d71c1c3713f0f1",
+        "name": "The Seattle Times",
+        "url": "https://www.seattletimes.com"
+      }
+    },
+    {
+      "id": "a4495454973921aa0fd779d5b6f0b76b",
+      "title": "Cowboys expected to place franchise tag on George Pickens, sources say",
+      "description": "The Cowboys are expected to place their franchise tag on Pro Bowl wide receiver George Pickens, sources told ESPN.",
+      "content": "The Dallas Cowboys are expected to place their franchise tag on Pro Bowl wide receiver George Pickens, league sources told ESPN.\nThe projected cost of the one-year, fully guaranteed franchise tag for Pickens will be roughly $28 million.\nBut the Cowbo... [1475 chars]",
+      "url": "https://www.espn.com/nfl/story/_/id/47860197/cowboys-expected-put-franchise-tag-george-pickens-sources-say",
+      "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1111%2Fr1574139_1296x729_16%2D9.jpg",
+      "publishedAt": "2026-02-08T00:24:19Z",
+      "lang": "en",
+      "source": {
+        "id": "0207e330d5d787ce8251900411dd488d",
+        "name": "ESPN",
+        "url": "https://www.espn.com"
+      }
+    },
+    {
+      "id": "1634f0cf0953bbb5d1ed84b3166b6e0a",
+      "title": "5 Zodiac Signs Have Great Horoscopes On Sunday, February 8",
+      "description": "Five zodiac signs have great horoscopes on February 8, 2026. They are: Aquarius, Pisces, Taurus, Gemini, and Virgo.",
+      "content": "Five zodiac signs have great horoscopes on February 8, 2026. A little bit of tension can go a long way, and that's what happens when Venus squares Uranus in Taurus.\nThese two planets want the same thing: happiness, love, money, and security. But the ... [3496 chars]",
+      "url": "https://www.yourtango.com/2026394479/zodiac-signs-great-horoscopes-february-8-2026",
+      "image": "https://www.yourtango.com/sites/default/files/image_blog/2026-02/zodiac-signs-great-horoscopes-sunday-february-8-2026.png",
+      "publishedAt": "2026-02-08T00:01:31Z",
+      "lang": "en",
+      "source": {
+        "id": "592f9c8ecb5f56727f31237bafbf5a54",
+        "name": "YourTango",
+        "url": "https://www.yourtango.com"
+      }
+    },
+    {
+      "id": "12f179240b1cf22005494ab88741d6e3",
+      "title": "Former MLB speedster Terrance Gore dies at age 34",
+      "description": "Terrance Gore, a dynamic baserunner whose speed impacted postseason games for the better part of a decade, has died at age 34.",
+      "content": "Terrance Gore, a dynamic baserunner whose speed impacted postseason games for the better part of a decade, has died at age 34, the Kansas City Royals announced Saturday.\nAccording to USA Today, Britney Gore, his wife, posted on social media that Gore... [3428 chars]",
+      "url": "https://www.espn.com/mlb/story/_/id/47861507/former-mlb-speedster-terrance-gore-dies-age-34",
+      "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0930%2Fr1069064_1296x729_16%2D9.jpg",
+      "publishedAt": "2026-02-07T23:14:00Z",
+      "lang": "en",
+      "source": {
+        "id": "0207e330d5d787ce8251900411dd488d",
+        "name": "ESPN",
+        "url": "https://www.espn.com"
+      }
+    }
+]
 }

@@ -10,7 +10,7 @@ const apiKey = process.env.REACT_APP_NEWS_API_KEY;
 const News = (props)=> {
 
   const[articles,setArticles] = useState([]);
-  const[loading,setLoading] = useState([true]);
+  const[loading,setLoading] = useState(true);
   const[page,setPage] = useState(1);
   const[totalResults,settotalResults] = useState(0);
   
