@@ -85,4 +85,3 @@ NewsMonkey is a modern React-based news application that fetches the latest head
 | REACT_APP_NEWS_API_KEY | Your NewsAPI key |
 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
